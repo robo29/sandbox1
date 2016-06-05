@@ -4,9 +4,9 @@ import (
 	"testing"
 )
 
-func TestHelloWithForcedFail(t *testing.T) {
+func TestHelloWithoutForcedFail(t *testing.T) {
 	greeting := hello()
-	expected := "Hello, World!!!!" // Intentional mismatch
+	expected := "Hello, World!" // Intentional mismatch
 	if greeting != expected {
 		t.Errorf("greeting=\"%s\", but we expected \"%s\"",
 			greeting, expected)
