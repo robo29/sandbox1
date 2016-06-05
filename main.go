@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("This is a Hello World Test!\n")
+	fmt.Printf("This is a Hello World Test!!\n")
 	fmt.Printf("%s\n", hello())
 }
 
