@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-const iteration = 5
+const iteration = 6
 
 func main() {
 	fmt.Printf("This is a Hello World Test, interation %d.\n", iteration)
